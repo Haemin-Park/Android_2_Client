@@ -34,9 +34,9 @@
 
 ## :camera: Screenshot
 
-[시연 영상](https://youtu.be/xpTtriWoLwM)
+[시연 영상](https://youtu.be/eau6yFBgZNY)
 
-<img style="max-width: 100%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105042302-6e35f400-5aa7-11eb-94a5-6d325247f14b.gif" width="32%"> <img style="max-width: 100%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105029316-8d2b8a80-5a95-11eb-86e2-34f2019d0993.gif" width="32%">
+<img style="max-width: 100%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105071365-d4327380-5ac7-11eb-8001-096943910747.gif" width="420px"> <img style="max-width: 100%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105029316-8d2b8a80-5a95-11eb-86e2-34f2019d0993.gif" width="420px">
 
 ## ✋ Part
 |Part|Name|
