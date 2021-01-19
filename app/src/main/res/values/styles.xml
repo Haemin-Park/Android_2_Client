@@ -2,9 +2,118 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/blue364ea0</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/blue364ea0</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorControlHighlight">@color/grayefefef</item>
     </style>
 
+    <style name="ChattingAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue364ea0</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue364ea0</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- basic 16dp-->
+    <style name="regular_basic_16sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="medium_basic_16sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="bold_basic_16sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="regular_basic">
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="medium_basic">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="bold_basic">
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- basic 14sp -->
+    <style name="regular_basic_14sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="medium_basic_14sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="bold_basic_14sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- basic 12sp -->
+    <style name="regular_basic_12sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="medium_basic_12sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="bold_basic_12sp">
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- bold -->
+    <style name="medium_bold">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- medium -->
+    <style name="regular_basic_16sp_black">
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="medium_basic_16sp_black">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="bold_basic_16sp_black">
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>

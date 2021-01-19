@@ -8,13 +8,17 @@ buildscript {
         rxAndroid_version = "2.1.1"
         retrofit_version = "2.9.0"
         recyclerView_version = "1.1.0"
+        glide_version = "4.11.0"
     }
 
     repositories {
         google()
         jcenter()
+
     }
     dependencies {
+
+        classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
         classpath "com.android.tools.build:gradle:4.0.1"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
@@ -27,6 +31,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://devrepo.kakao.com/nexus/content/groups/public/'}
+        maven { url "https://jitpack.io"}
+
     }
 }
 

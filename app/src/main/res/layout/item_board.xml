@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_board_height_112dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_profile_image"
+            android:layout_width="@dimen/item_board_title_image_size_46dp"
+            android:layout_height="@dimen/item_board_title_image_size_46dp"
+            android:layout_marginLeft="@dimen/item_board_margin_16dp"
+            android:layout_marginTop="@dimen/item_board_margin_13dp"
+            android:src="@drawable/ic_profile_46dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_bookmark"
+            android:layout_width="@dimen/item_board_title_image_size_24dp"
+            android:layout_height="@dimen/item_board_title_image_size_24dp"
+            android:layout_marginTop="@dimen/item_board_margin_13dp"
+            android:layout_marginRight="@dimen/item_board_margin_13dp"
+            android:src="@drawable/ic_star_disabled"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_host"
+            style="@style/medium_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_board_margin_12dp"
+            android:text="Host"
+            android:textColor="@color/pink"
+            android:textSize="@dimen/item_board_text_size_14sp"
+            app:layout_constraintBottom_toBottomOf="@id/iv_bookmark"
+            app:layout_constraintLeft_toRightOf="@id/iv_profile_image"
+            app:layout_constraintTop_toTopOf="@id/iv_bookmark" />
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            style="@style/medium_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_board_margin_7dp"
+            android:textSize="@dimen/item_board_text_size_14sp"
+            app:layout_constraintBottom_toBottomOf="@id/tv_host"
+            app:layout_constraintLeft_toRightOf="@id/tv_host"
+            app:layout_constraintTop_toTopOf="@id/tv_host"
+            tools:text="Test"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_dayCount"
+            style="@style/medium_basic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/item_board_text_size_14sp"
+            app:layout_constraintLeft_toLeftOf="@id/tv_host"
+            app:layout_constraintTop_toBottomOf="@id/iv_bookmark"
+            tools:text="[D-1]"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/regular_basic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_board_margin_7dp"
+            android:layout_marginRight="@dimen/item_board_margin_30dp"
+            android:singleLine="true"
+            android:textSize="@dimen/item_board_text_size_14sp"
+            app:layout_constraintBottom_toBottomOf="@id/tv_dayCount"
+            app:layout_constraintLeft_toRightOf="@id/tv_dayCount"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_dayCount"
+            tools:text="급하게 농구 용병 3명 구합니다!"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/medium_basic"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="@drawable/shape_round_corner_darkblue"
+            android:gravity="center"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_dayCount"
+            app:layout_constraintTop_toBottomOf="@id/tv_dayCount" />
+
+        <TextView
+            android:id="@+id/tv_exercise"
+            style="@style/medium_basic"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/shape_round_corner_darkblue_opacity_no_stoke"
+            android:gravity="center"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/tv_status"
+            app:layout_constraintStart_toEndOf="@id/tv_status"
+            app:layout_constraintTop_toTopOf="@id/tv_status"
+            tools:text="농구" />
+
+        <TextView
+            android:id="@+id/tv_region"
+            style="@style/medium_basic"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/shape_round_corner_darkblue_opacity_no_stoke"
+            android:gravity="center"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/tv_exercise"
+            app:layout_constraintStart_toEndOf="@id/tv_exercise"
+            app:layout_constraintTop_toTopOf="@id/tv_exercise"
+            tools:text="중랑구" />
+
+        <TextView
+            android:id="@+id/tv_peopleCount"
+            style="@style/medium_basic"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/shape_round_corner_darkblue_opacity_no_stoke"
+            android:gravity="center"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/tv_region"
+            app:layout_constraintStart_toEndOf="@id/tv_region"
+            app:layout_constraintTop_toTopOf="@id/tv_region"
+            tools:text="12/15명" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white_gray"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

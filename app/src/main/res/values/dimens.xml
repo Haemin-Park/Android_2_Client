@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- activity_profile.xml -->
+    <dimen name="activity_profile_margin_8dp">8dp</dimen>
+    <dimen name="activity_profile_margin_16dp">16dp</dimen>
+    <dimen name="activity_profile_padding_8dp">8dp</dimen>
+    <dimen name="activity_profile_padding_16dp">16dp</dimen>
+    <dimen name="activity_profile_text_size_20sp">20sp</dimen>
+
+    <!-- dialog_exercise.xml -->
+    <dimen name="dialog_select_margin_12dp">12dp</dimen>
+    <dimen name="dialog_select_margin_16dp">16dp</dimen>
+
+    <!-- item_exercise_region.xml -->
+    <dimen name="item_exercise_region_padding_12dp">12dp</dimen>
+    <dimen name="item_exercise_region_padding_16dp">16dp</dimen>
+
+    <!-- item_exercise_list.xml -->
+    <dimen name="item_exercise_list_margin_8dp">8dp</dimen>
+    <dimen name="item_exercise_list_margin_12dp">12dp</dimen>
+    <dimen name="item_exercise_list_padding_4dp">4dp</dimen>
+
+    <!-- dialog_base_accept.xml -->
+    <dimen name="dialog_base_accept_margin_16dp">16dp</dimen>
+    <dimen name="dialog_base_accept_margin_24dp">24dp</dimen>
+
+    <!-- activity_chatting -->
+    <dimen name="activity_chatting_board_title_maxwidth_166dp">166dp</dimen>
+    <dimen name="activity_chatting_layout_height_56dp">56dp</dimen>
+    <dimen name="activity_chatting_layout_paddingLeftRight_16dp">16dp</dimen>
+    <dimen name="activity_chatting_btn_width_76dp">76dp</dimen>
+    <dimen name="activity_chatting_btn_height_32dp">32dp</dimen>
+    <dimen name="activity_chatting_edit_text_height_34dp">34dp</dimen>
+    <dimen name="activity_chatting_edit_text_marginLeft_16dp">16dp</dimen>
+    <dimen name="activity_chatting_edit_text_marginRight_11dp">11dp</dimen>
+    <dimen name="activity_chatting_edit_text_PaddingLeft_12dp">12dp</dimen>
+    <dimen name="activity_chatting_send_btn_marginRight_13dp">13dp</dimen>
+
+    <!-- activity_chatting_btn_border -->
+    <dimen name="activity_chatting_btn_corner_radius_20dp">20dp</dimen>
+
+    <!-- activity_chatting_edit_text_border -->
+    <dimen name="activity_chatting_edit_text_corner_radius_31dp">31dp</dimen>
+
+    <!-- item_message_border, item_message_visit_btn_border -->
+    <dimen name="item_message_corner_radius_16dp">16dp</dimen>
+
+    <!-- item_notice_message -->
+    <dimen name="item_notice_message_msg_paddingTop_25dp">25dp</dimen>
+    <dimen name="item_notice_message_mgs_paddingLeftRight_14dp">14dp</dimen>
+    <dimen name="item_notice_message_msg_paddingTopBottom_4dp">4dp</dimen>
+
+    <!-- item_[ received || sent ]_profile_message -->
+    <dimen name="item_profile_message_msg_paddingTop_16dp">16dp</dimen>
+    <dimen name="item_profile_message_msg_margin_16dp">16dp</dimen>
+    <dimen name="item_profile_message_msg_maxwidth_190dp">190dp</dimen>
+
+    <!-- item_[ received || sent ]_talk_message -->
+    <dimen name="item_talk_message_msg_paddingTop_16dp">16dp</dimen>
+    <dimen name="item_talk_message_msg_margin_16dp">16dp</dimen>
+    <dimen name="item_talk_message_msg_maxwidth_260dp">260dp</dimen>
+
+    <dimen name="common_app_bar_size">56dp</dimen>
+    <dimen name="common_app_bar_text_size">18sp</dimen>
+    <dimen name="common_filter_bar_size">50dp</dimen>
+
+    <dimen name="item_board_height_112dp">112dp</dimen>
+    <dimen name="item_board_title_image_size_24dp">24dp</dimen>
+    <dimen name="item_board_title_image_size_46dp">46dp</dimen>
+    <dimen name="item_board_text_size_14sp">14sp</dimen>
+    <dimen name="item_board_margin_7dp">7dp</dimen>
+    <dimen name="item_board_margin_12dp">12dp</dimen>
+    <dimen name="item_board_margin_13dp">13dp</dimen>
+    <dimen name="item_board_margin_16dp">16dp</dimen>
+    <dimen name="item_board_margin_30dp">30dp</dimen>
+    <dimen name="item_board_margin_36dp">36dp</dimen>
+
+    <dimen name="item_filter_option_width">116dp</dimen>
+    <dimen name="item_filter_option_text_size">14sp</dimen>
+    <dimen name="item_filter_time_width">86dp</dimen>
+    <dimen name="item_filter_time_text_size">14sp</dimen>
+
+    <dimen name="activity_filter_tab_height">52dp</dimen>
+
+    <!-- fragment_my_page.xml -->
+    <dimen name="fragment_my_page_margin_6dp">6dp</dimen>
+    <dimen name="fragment_my_page_margin_10dp">10dp</dimen>
+    <dimen name="fragment_my_page_margin_16dp">16dp</dimen>
+    <dimen name="fragment_my_page_margin_20dp">20dp</dimen>
+    <dimen name="fragment_my_page_margin_24dp">24dp</dimen>
+    <dimen name="fragment_my_page_margin_32dp">32dp</dimen>
+    <dimen name="fragment_my_page_padding_8dp">8dp</dimen>
+    <dimen name="fragment_my_page_padding_12dp">12dp</dimen>
+    <dimen name="fragment_my_page_spacing_line_3dp">3dp</dimen>
+    <dimen name="fragment_my_page_text_size_18sp">18sp</dimen>
+    <dimen name="fragment_my_page_text_size_20sp">20sp</dimen>
+
+    <!-- fragment_setting.xml -->
+    <dimen name="fragment_setting_margin_12dp">12dp</dimen>
+    <dimen name="fragment_setting_margin_16dp">16dp</dimen>
+    <dimen name="fragment_setting_margin_20dp">20dp</dimen>
+    <dimen name="fragment_setting_padding_16dp">16dp</dimen>
+    <dimen name="fragment_setting_text_size_20sp">20sp</dimen>
+
+    <!-- item_history_ing.xml -->
+    <dimen name="item_history_ing_margin_8dp">8dp</dimen>
+    <dimen name="item_history_ing_margin_10dp">10dp</dimen>
+    <dimen name="item_history_ing_margin_12dp">12dp</dimen>
+    <dimen name="item_history_ing_margin_14dp">14dp</dimen>
+    <dimen name="item_history_ing_margin_16dp">16dp</dimen>
+    <dimen name="item_history_ing_margin_18dp">18dp</dimen>
+    <dimen name="item_history_ing_margin_20dp">20dp</dimen>
+    <dimen name="item_history_ing_padding_1dp">1dp</dimen>
+    <dimen name="item_history_ing_padding_10dp">10dp</dimen>
+
+    <!-- item_history_finish_expand.xml -->
+    <dimen name="item_history_finish_expand_margin_8dp">8dp</dimen>
+    <dimen name="item_history_finish_expand_margin_12dp">12dp</dimen>
+    <dimen name="item_history_finish_expand_margin_14dp">14dp</dimen>
+    <dimen name="item_history_finish_expand_padding_16dp">16dp</dimen>
+    <dimen name="item_history_finish_expand_padding_30dp">30dp</dimen>
+    
+    <!-- dialog_report.xml -->
+    <dimen name="dialog_report_margin_12dp">12dp</dimen>
+    <dimen name="dialog_report_margin_24dp">24dp</dimen>
+    <dimen name="dialog_report_padding_8dp">8dp</dimen>
+    <dimen name="dialog_report_padding_14dp">14dp</dimen>
+    <dimen name="dialog_report_padding_24dp">24dp</dimen>
+</resources>
