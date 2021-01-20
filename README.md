@@ -32,11 +32,11 @@
 <a href="https://www.notion.so/20367368800d43a78bf36d08455ed32b#0a47a27d63a346388c9dd07f0e2ddf5f">more details</a>
 </p>
 
-## :camera: Screenshot
+## :camera: My Part Screenshot
 
-[시연 영상](https://youtu.be/eau6yFBgZNY)
+[시연 영상](https://youtu.be/cOl9LeD3GLU)
 
-<img style="max-width: 50%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105071365-d4327380-5ac7-11eb-8001-096943910747.gif" width="390px"> <img style="max-width: 50%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105029316-8d2b8a80-5a95-11eb-86e2-34f2019d0993.gif" width="390px">
+<img style="max-width: 50%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105195974-7e6cd280-5b7e-11eb-8381-96af250e9d6b.gif" width="32%"> <img style="max-width: 50%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105197305-cf30fb00-5b7f-11eb-86e7-65d86389119b.gif" width="32%"> <img style="max-width: 50%; height: auto;" src="https://user-images.githubusercontent.com/54823396/105198230-cd1b6c00-5b80-11eb-8d07-70de474d9404.gif" width="32%">
 
 ## ✋ Part
 |Part|Name|
